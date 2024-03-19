@@ -28,7 +28,7 @@ print("Total number of tokens:", len(preprocessed))
 
 all_words = sorted(list(set(preprocessed)))
 vocab_size = len(all_words)
-print(vocab_size)
+print("Vocabulary size:", vocab_size)
 
 vocab = {token:integer for integer,token in enumerate(all_words)}
 for i, item in enumerate(vocab.items()):
